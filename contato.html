@@ -39,17 +39,18 @@
 
             <!--Forma de Contado no "formsubit" para que o usuário possa enviar um E-mail-->
             <form class="contact-form" action="https://formsubmit.co/rugg2222@gmail.com" method="POST">
-                <div>
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" required>
-                </div>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
                 <div>
                     <label for="message">Mensagem</label>
                     <input type="text" id="message" name="message" required>
                 </div>
+                
                 <button type="submit">Enviar</button>
-                <input type="hidden" name="_next" value="https://marcosviniciusruggeribotelho.github.io/TrabalhoFundamentosWebPage//">
-                <input type="hidden" name="_subject" value="New submission!">
+                
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+                
             </form>
         </div>
     </body
